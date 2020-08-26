@@ -26,8 +26,9 @@ class MainClass {
       Console.WriteLine("Escolha seu candidato: \n 33 - José Couve \n 25 - Joana Bravo \n 10 - Roberto Nove \n 0 - Voto em Branco \n 4 - Voto Nulo");
       voto = int.Parse(Console.ReadLine());
       Console.WriteLine();
-
     }
+
+    while()
 
 
 

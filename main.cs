@@ -94,13 +94,10 @@ class MainClass {
     if (roberto == joana && roberto > jose || joana == jose && roberto > jose || jose == roberto && roberto > joana)
     {
       vencedor = "Haverá 2° Turno";
-    }
-
-    //Console.WriteLine("{0}, {1}, {2}, {3}, {4},", jose, joana, roberto, branco, nulo);
+    }   
 
     Console.WriteLine();
-    Console.WriteLine("--------------------");
-    
+    Console.WriteLine("--------------------");   
 
     if (vencedor == "")
     {
@@ -116,8 +113,6 @@ class MainClass {
     Console.WriteLine();
     Console.WriteLine("--------Resultado dos votos--------");
     Console.WriteLine("Quantidade de votos nulos: {0}\nQuantidade de votos em branco: {1}\nJosé Couve: {2}\nJoana Bravo: {3}\nRoberto Nove: {4}", nulo, branco, jose, joana, roberto);
-
-
 
   }
 }
